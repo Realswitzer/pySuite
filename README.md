@@ -6,7 +6,7 @@
 ## Features:
 - more than 0 script(s)
 - not super useful script(s)
-- next to no commits
+- next to no commits (yo what's up -committer)
 
-#### Installation maybe coming soon? I don't really know how to make a good install script that doesn't just add hundreds of aliases just for each script.
-#### Licensed under the MIT license.
+#### Installation never coming. Ever. You don't need it. Seriously. Well, maybe. Also, I don't really know how to make a good install script that doesn't just add hundreds of aliases just for each script, so there won't be one
+#### Licensed under the MIT license. (jk lmao)
