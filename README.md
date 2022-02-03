@@ -9,4 +9,4 @@
 - next to no commits (yo what's up -committer)
 
 #### Installation never coming. Ever. You don't need it. Seriously. Well, maybe. Also, I don't really know how to make a good install script that doesn't just add hundreds of aliases just for each script, so there won't be one
-#### Licensed under the MIT license. (jk lmao)
+#### Licensed under the MIT license.
