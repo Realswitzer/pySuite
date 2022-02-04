@@ -6,7 +6,7 @@ def infloop():
         print("Value: {} Character: {}".format(theinput,chr(theinput)))
     except ValueError:
         print("Error: ValueError.")
-        print("Input was a non-int")
+        print("Input was not an integer.")
         infloop()
     else:
         infloop()
