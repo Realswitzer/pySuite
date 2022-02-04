@@ -1,23 +1,18 @@
+#!/usr/bin/env python3
 import random
 
 def infloop():
+    a = input("Enter the first number of the range that you want the number generator to generate: ")
+    b = input("Enter the second number of the range that you want the number generator to generate: ")
     try:
-        a = int(input("Enter the first number of the range that you want the number generator to generate: "))
-    except:
-        print("Variable a attempted to be set to a non-integer character!")
-        print()
+        print('Here is your random number from',a,'to',b,":",(random.randint(int(a), int(b))))
+    except ValueError:
+        print("Variable(s) contained non-integers!\n")
         infloop()
-    try:
-        b = int(input("Enter the second number of the range that you want the number generator to generate: "))
-    except:
-        print("Variable b attempted to be set to a non-integer character!")
-        print()
+    c = input(("Would you like to generate another random number? (y/n)\n"))
+    if c == ("y" or "yes"):
         infloop()
-    print('Here is your random number from',a,'to',b,":",(random.randint(a, b)))
-    print("Would you like to generate another random number? (y/n)\n")
-    c = str(input())
-    if c == "y":
-        infloop()
-    elif c == "n":
+    elif c == ("n" or "no" or "exit" or "quit" or "q"):
         exit()
+
 infloop()
