@@ -1,5 +1,7 @@
 # pySuite
 
+[![CodeFactor](https://www.codefactor.io/repository/github/realswitzer/pysuite/badge)](https://www.codefactor.io/repository/github/realswitzer/pysuite)
+###### very good code yes
 ## A not very good suite of tools in Python3
 ###### Also a test with Atom's git features, but that's less important :)
 
