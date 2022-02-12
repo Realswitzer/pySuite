@@ -44,7 +44,7 @@ def main():
         message = message.replace("y", "▜")
         message = message.replace("z", "▟")
 
-        print(message)
+        print(" " + message)
 
         check = input(("Would you like to translate more? (y/n)\n"))
         if check == ("y" or "yes"):
@@ -83,7 +83,7 @@ def main():
         message = message.replace("▜", "y")
         message = message.replace("▟", "z")
 
-        print(message)
+        print(" " + message)
 
         check = input(("Would you like to translate more? (y/n)\n"))
         if check == ("y" or "yes"):
