@@ -76,7 +76,8 @@ def main(argv):
 			print("I hope that pygame works, but there's no implementation of that.")
 			print("Please use --headless (cli gui-thing) or --help for other options. -switz")
 			exit(1)
-		#dpgfunc()
+		#exec(open("randomnumbergenerator.py").read())
+		print("Sorry, the GUI doesn't work. Just use --headless or --help for options")
 		exit()
 	for opt, arg in opts:
 		if opt in ("-h", "--help"):
