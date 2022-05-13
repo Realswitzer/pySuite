@@ -1,0 +1,5 @@
+# Removed until I get this working
+translators/*
+# Temp directory
+.gt/*
+!.gt/README.txt
