@@ -71,11 +71,11 @@ def main(argv):
 		exit()
 	if opts == []:
 		print("No arguments! Launching GUI version...because apparently #4 exists")
-		if platform.system() == 'Darwin':
-			print("Sorry, dearpygui doesn't seem to work on Mac, at least for me (developer).")
-			print("I hope that pygame works, but there's no implementation of that.")
-			print("Please use --headless (cli gui-thing) or --help for other options. -switz")
-			exit(1)
+		#if platform.system() == 'Darwin':
+		#	print("Sorry, dearpygui doesn't seem to work on Mac, at least for me (developer).")
+		#	print("I hope that pygame works, but there's no implementation of that.")
+		#	print("Please use --headless (cli gui-thing) or --help for other options. -switz")
+		#	exit(1)
 		#exec(open("randomnumbergenerator.py").read())
 		print("Sorry, the GUI doesn't work. Just use --headless or --help for options")
 		exit()

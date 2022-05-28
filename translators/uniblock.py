@@ -2,9 +2,9 @@
 
 # Improved Python version of the block translator!
 # Original: https://lingojam.com/%E2%96%88%E2%96%88%E2%96%88%E2%96%88translator
-# Fixes problem of random inserted spaces making decoding finnicky. :3
+# Fixes problem of random inserted spaces making decoding finnicky.
 # Thanks Gaia for making me unintentionally make this.
-# Yeah, okay I think that's enough monologuing. -chan's plushie/swiss cheese man
+# Yeah, okay I think that's enough monologuing. -switz
 
 def main():
     print("Encode = 1 | Decode = 2")
